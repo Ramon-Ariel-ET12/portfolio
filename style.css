@@ -4,6 +4,18 @@
     --tertiary-color: rgb(46, 46, 46);
 }
 
+#idioma{
+    width: 30px;
+    cursor: pointer;
+}
+
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     padding: 0;
@@ -13,14 +25,19 @@ body{
 }
 
 main{
-    margin: 0 10%;
+    margin: 20px 20px;
 }
 
 footer{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0 20px;
     background-color: var(--tertiary-color);
 }
 
 header{
+    margin: 0;
     padding: 0 20px;
     background: var(--tertiary-color);
     display: flex;
@@ -29,10 +46,23 @@ header{
     justify-content: space-between;
 }
 
+.block{
+    background-color: var(--tertiary-color);
+    padding: 5px 40px;
+    border-radius: 2rem;
+}
+
+#perfil{
+    border-radius: 100%;
+    width: 200px;
+    pointer-events: none;
+}
+
 ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     gap: 20px;
 }
 
